@@ -1,0 +1,59 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOVhR/UqJ6iObDOZFYoRAev",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sunvick/DSA-58010/blob/main/Long%20quiz%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rk6NZ502PmfU",
+        "outputId": "3f237850-e837-47dd-de88-5da0354c3d5f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Full name : ['Gencianeo', 'Sunvick', 'Abusca']\n",
+            "Reverse of a full name : ['Gencianeo', 'Sunvick', 'Abusca']\n"
+          ]
+        }
+      ],
+      "source": [
+        "#array that create full name and display reverse \n",
+        "array = [\"Gencianeo\",\"Sunvick\",\"Abusca\"]\n",
+        "print(\"Full name :\",array)\n",
+        "array = [\"Gencianeo\",\"Sunvick\",\"Abusca\"]\n",
+        "array.reverse\n",
+        "print(\"Reverse of a full name :\",array)"
+      ]
+    }
+  ]
+}
